@@ -26,7 +26,7 @@
 /* Forms */
 .form-signin
 {
-    position:absolute;
+    position: absolute;
     margin-top: 12rem;
 }
 
@@ -46,7 +46,7 @@
     border-color: #f7941e;
 }
 
-/*Django datetime picker*/
+/* Django datetime picker */
 .bootstrap-datetimepicker-widget.dropdown-menu {
     position: absolute;
     left: 0;
@@ -82,7 +82,7 @@
     display: block;
 }
 
-/* fix for bootstrap4 */
+/* Fix for bootstrap4 */
 .bootstrap-datetimepicker-widget .table-condensed > thead > tr > th,
 .bootstrap-datetimepicker-widget .table-condensed > tbody > tr > td,
 .bootstrap-datetimepicker-widget .table-condensed > tfoot > tr > td {

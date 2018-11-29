@@ -1,0 +1,90 @@
+/* Background colors */
+.bg-blue {
+    background-color: #00356b;
+}
+
+.bg-light-blue {
+    background-color: #2d6caf;
+}
+
+.wrapper {
+    margin-top: 3rem;
+    min-height: 100vh;
+}
+
+.console {
+    min-width: 350px;
+    min-height: 600px;
+    transition: margin .4s ease-in-out;
+        transition-property: margin;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    z-index: 2;
+}
+
+/* Forms */
+.form-signin
+{
+    position:absolute;
+    margin-top: 12rem;
+}
+
+.sidebar {
+    min-width: 350px;
+    min-height: 100%;
+    transition: margin .4s ease-in-out;
+        transition-property: margin;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    z-index: 2;
+}
+
+.btn-primary {
+    background-color: #f7941e;
+    border-color: #f7941e;
+}
+
+/*Django datetime picker*/
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.bootstrap-datetimepicker-widget .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.bootstrap-datetimepicker-widget .collapse {
+    display: none;
+}
+
+.bootstrap-datetimepicker-widget .collapse.in {
+    display: block;
+}
+
+/* fix for bootstrap4 */
+.bootstrap-datetimepicker-widget .table-condensed > thead > tr > th,
+.bootstrap-datetimepicker-widget .table-condensed > tbody > tr > td,
+.bootstrap-datetimepicker-widget .table-condensed > tfoot > tr > td {
+    padding: 5px;
+}

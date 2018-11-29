@@ -9,12 +9,14 @@
 
 .wrapper {
     margin-top: 3rem;
+    margin-right: 1rem;
     min-height: 100vh;
 }
 
 .console {
     min-width: 350px;
     min-height: 600px;
+    padding: 0;
     transition: margin .4s ease-in-out;
         transition-property: margin;
         transition-duration: 0.4s;
@@ -23,11 +25,12 @@
     z-index: 2;
 }
 
+
 /* Forms */
-.form-signin
-{
+.form-signin {
     position: absolute;
     margin-top: 12rem;
+    width: 330px;
 }
 
 .sidebar {
@@ -45,6 +48,7 @@
     background-color: #f7941e;
     border-color: #f7941e;
 }
+
 
 /* Django datetime picker */
 .bootstrap-datetimepicker-widget.dropdown-menu {

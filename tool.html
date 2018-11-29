@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <nav class="bg-blue navbar fixed-top navbar-expand-sm navbar-dark">
+        <nav class="fixed-top navbar navbar-expand-sm navbar-dark bg-blue">
             <div class="container-fluid">
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#ToToggleNav" aria-controls="#ToToggleNav" aria-lable="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,92 +31,89 @@
             </div>
         </nav>
     </header>
-    <aside class="wrapper">
-        <section class="container-fluid d-md-inline-flex">
-            <!--temporary demo purposes-->
-            <form action="results.html">
-                <nav class="sidebar border bg-light mx-2 mr-md-3 pb-5">
-                    <div class="sidebar-content mx-5 pt-1">
-                        <ul class="sidebar-nav list-unstyled form-group">
-                            <li class="sidebar-header my-4">
-                                <h5>Options</h5>
-                            </li>
-                            <li class="sidebar-item">
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                        <label class="input-group-text" for="inputGroupSelect01">Options</label>
-                                    </div>
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                <option selected></option>
-                                <option value="1">Option One</option>
-                                <option value="2">Option Two</option>
-                                <option value="3">Option Three</option>
-                              </select>
+    <section class="wrapper container-fluid d-md-inline-flex">
+        <nav class="sidebar border bg-light mx-2 mr-md-3 pb-5">
+            <aside class="sidebar-content mx-5 pt-1">
+                <form action="results.html">
+                    <ul class="sidebar-nav list-unstyled form-group">
+                        <li class="sidebar-header my-4">
+                            <h5>Options</h5>
+                        </li>
+                        <li class="sidebar-item">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="inputGroupSelect01">Options</label>
                                 </div>
-                            </li>
-                            <li class="sidebar-item form mt-5">
-                                <label>Multiple Checkboxes</label>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="Checkbox1" value="option1">
-                                    <label class="form-check-label" for="Checkbox1">Option 1</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="Checkbox2" value="option2">
-                                    <label class="form-check-label" for="Checkbox2"> Option 2</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="Checkbox3" value="option3">
-                                    <label class="form-check-label" for="Checkbox3">Option 3</label>
-                                </div>
-                            </li>
-                            <li class="sidebar-item form mt-5">
-                                <label>Multiple RadioButtons</label>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="exampleRadios1">First default radio</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">Second default radio</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
-                                    <label class="form-check-label" for="exampleRadios3">Third default radio</label>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="form-group mt-5">
-                            <label for="id_start_date">From Date</label>
-                            <div class="input-group date">
-                                <input type="text" name="start_date" value="20/10/2018" class="form-control" placeholder="Start date" title="" required="" id="id_start_date" dp_config="{&quot;id&quot;: &quot;dp_1&quot;, &quot;picker_type&quot;: &quot;DATE&quot;, &quot;linked_to&quot;: null, &quot;options&quot;: {&quot;showClose&quot;: true, &quot;showClear&quot;: true, &quot;showTodayButton&quot;: true, &quot;format&quot;: &quot;DD/MM/YYYY&quot;, &quot;viewMode&quot;: &quot;days&quot;}}">
-                                <div class="input-group-addon input-group-append" data-target="#datetimepicker1" data-toggle="datetimepickerv">
-                                    <div class="input-group-text">
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
+                                <select class="custom-select" id="inputGroupSelect01">
+                            <option selected></option>
+                            <option value="1">Option One</option>
+                            <option value="2">Option Two</option>
+                            <option value="3">Option Three</option>
+                          </select>
+                            </div>
+                        </li>
+                        <li class="sidebar-item form mt-5">
+                            <label>Multiple Checkboxes</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="Checkbox1" value="option1">
+                                <label class="form-check-label" for="Checkbox1">Option 1</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="Checkbox2" value="option2">
+                                <label class="form-check-label" for="Checkbox2"> Option 2</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="Checkbox3" value="option3">
+                                <label class="form-check-label" for="Checkbox3">Option 3</label>
+                            </div>
+                        </li>
+                        <li class="sidebar-item form mt-5">
+                            <label>Multiple RadioButtons</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">First default radio</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label" for="exampleRadios2">Second default radio</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                <label class="form-check-label" for="exampleRadios3">Third default radio</label>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="form-group mt-5">
+                        <label for="id_start_date">From Date</label>
+                        <div class="input-group date">
+                            <input type="text" name="start_date" value="20/10/2018" class="form-control" placeholder="Start date" title="" required="" id="id_start_date" dp_config="{&quot;id&quot;: &quot;dp_1&quot;, &quot;picker_type&quot;: &quot;DATE&quot;, &quot;linked_to&quot;: null, &quot;options&quot;: {&quot;showClose&quot;: true, &quot;showClear&quot;: true, &quot;showTodayButton&quot;: true, &quot;format&quot;: &quot;DD/MM/YYYY&quot;, &quot;viewMode&quot;: &quot;days&quot;}}">
+                            <div class="input-group-addon input-group-append" data-target="#datetimepicker1" data-toggle="datetimepickerv">
+                                <div class="input-group-text">
+                                    <i class="fa fa-calendar"></i>
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="id_end_date">To Date</label>
-                            <div class="input-group date">
-                                <input type="text" name="end_date" value="21/10/2018" class="form-control" placeholder="End date" title="" required="" id="id_end_date" dp_config="{&quot;id&quot;: &quot;dp_2&quot;, &quot;picker_type&quot;: &quot;DATE&quot;, &quot;linked_to&quot;: &quot;dp_1&quot;, &quot;options&quot;: {&quot;showClose&quot;: true, &quot;showClear&quot;: true, &quot;showTodayButton&quot;: true, &quot;format&quot;: &quot;DD/MM/YYYY&quot;, &quot;viewMode&quot;: &quot;days&quot;, &quot;useCurrent&quot;: false}}">
-                                <div class="input-group-addon input-group-append" data-target="#datetimepicker1" data-toggle="datetimepickerv">
-                                    <div class="input-group-text">
-                                        <i class="fa fa-calendar"></i>
-                                    </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="id_end_date">To Date</label>
+                        <div class="input-group date">
+                            <input type="text" name="end_date" value="21/10/2018" class="form-control" placeholder="End date" title="" required="" id="id_end_date" dp_config="{&quot;id&quot;: &quot;dp_2&quot;, &quot;picker_type&quot;: &quot;DATE&quot;, &quot;linked_to&quot;: &quot;dp_1&quot;, &quot;options&quot;: {&quot;showClose&quot;: true, &quot;showClear&quot;: true, &quot;showTodayButton&quot;: true, &quot;format&quot;: &quot;DD/MM/YYYY&quot;, &quot;viewMode&quot;: &quot;days&quot;, &quot;useCurrent&quot;: false}}">
+                            <div class="input-group-addon input-group-append" data-target="#datetimepicker1" data-toggle="datetimepickerv">
+                                <div class="input-group-text">
+                                    <i class="fa fa-calendar"></i>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-primary btn-lg btn-block mt-5">Submit</button>
-                    </div><!-- class="sidebar-content" -->
-                </nav>
-            </form>
-            <article class="console container-fluid mx-2 my-5 ml-xl-5 p-0">
-                <object class="console container-fluid bg-light border p-0" data="closeout_tours__23-02-2018T111040.txt">
-                </object>
-            </article>
-        </section>
-    </aside>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block mt-5">Submit</button>
+                </form>
+            </aside>
+        </nav>
+        <article class="console container-fluid mx-2 my-5 ml-xl-5">
+            <object class="console container-fluid bg-light border" data="closeout_tours__23-02-2018T111040.txt">
+            </object>
+        </article>
+    </section>
     <footer class="row bg-light-blue d-flex justify-content-center fixed-bottom">
         <img class="py-3 px-3 d-sm-block d-none" src="/assets/images/logo-footer.PNG">
         <p class="pt-5 text-white">

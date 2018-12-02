@@ -7,15 +7,19 @@
     background-color: #2d6caf;
 }
 
+/* Other */
 .wrapper {
     margin-top: 3rem;
-    margin-right: 1rem;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
     min-height: 100vh;
 }
 
 .console {
     min-width: 350px;
     min-height: 600px;
+	margin-top: 1rem;
+	margin-bottom: 6rem;
     padding: 0;
     transition: margin .4s ease-in-out;
         transition-property: margin;
@@ -30,6 +34,7 @@
 .form-signin {
     position: absolute;
     margin-top: 12rem;
+	margin-bottom: 1rem;
     width: 330px;
 }
 

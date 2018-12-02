@@ -10,13 +10,13 @@
 /* Other */
 .wrapper {
     margin-top: 3rem;
-    margin-right: 1.25rem;
-    margin-left: 1.25rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
     min-height: 100vh;
 }
 
 .console {
-    min-width: 350px;
+    min-width: 300px;
     min-height: 600px;
 	margin-top: 1rem;
 	margin-bottom: 6rem;
@@ -33,7 +33,7 @@
 /* Forms */
 .form-signin {
     position: absolute;
-    margin-top: 12rem;
+    margin-top: 24rem;
 	margin-bottom: 1rem;
     width: 330px;
 }

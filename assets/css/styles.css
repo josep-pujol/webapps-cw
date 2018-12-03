@@ -1,3 +1,26 @@
+/* Reset margins and padding */
+/*html, body { 
+    margin: 0; 
+    padding: 0px; 
+}*/
+
+/*
+* { 
+    margin: 0; 
+    padding: 0px; 
+}*/
+
+/*
+@-moz-document url-prefix() { 
+  .remove-me {
+    border:1px solid red;
+    position:absolute;
+    right:0;
+    top:0;
+  }
+}*/
+
+
 /* Background colors */
 .bg-blue {
     background-color: #00356b;
@@ -33,7 +56,7 @@
 /* Forms */
 .form-signin {
     position: absolute;
-    margin-top: 24rem;
+    margin-top: 25rem;
 	margin-bottom: 1rem;
     width: 330px;
 }

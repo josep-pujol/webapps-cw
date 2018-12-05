@@ -20,9 +20,16 @@
     margin-right: 3rem;
     margin-left: 3rem;
     padding: 0;
-
 }
 
+.card-title {
+    font-weight: bold;
+}
+
+.card-text, .card-title{
+    color: black;
+}
+    
 .console {
     min-width: 300px;
     min-height: 600px;

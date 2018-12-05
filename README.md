@@ -1,7 +1,7 @@
 
 # WebApps
 General Web interface to run python applications.\
-https://ide.c9.io/joseppujol/webapps-cw
+https://github.com/josep-pujol/webapps-cw
 
 ## UX
 Website aimed at www.citywonders.com employees so they can use the applications when needed
@@ -16,7 +16,7 @@ Website aimed at www.citywonders.com employees so they can use the applications 
 ## Features left to implement
 The backend part not implemented yet. It will be implemented using Django framework.\
 Notice that the tags of Django template language are not included.\
-Buttons, forms etc. got basic functionality aimed at testing purposes only.\
+Buttons, forms etc. got basic functionality aimed at testing purposes only.
 
 ## Technologies used
 - Bootstrap 4 famework

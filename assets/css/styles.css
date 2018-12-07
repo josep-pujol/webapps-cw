@@ -8,6 +8,9 @@
 }
 
 /* Other */
+.body {
+    margin-bottom: 3rem;
+}
 .wrapper {
     margin-top: 3rem;
     padding-right: 2rem;

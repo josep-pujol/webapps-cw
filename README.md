@@ -1,7 +1,6 @@
 
 # WebApps
-General Web interface to run web applications.\
-Demo deployed in Github pages [demo](https://josep-pujol.github.io/webapps-cw/)
+General Web interface to run web applications. Demo deployed in Github pages [demo](https://josep-pujol.github.io/webapps-cw/).
 
 ## UX
 Website aimed at www.citywonders.com employees so they can use the applications when needed
